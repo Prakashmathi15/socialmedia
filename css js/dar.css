@@ -1,0 +1,30 @@
+body.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+body.dark {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 5px;
+  left: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color:purple;
+  color:white;
+  border:salmon;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
+}
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight increase in shadow on hover */
+}
